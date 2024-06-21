@@ -33,9 +33,9 @@ export default function App() {
         return (
           <div key={people.employee_id}>
             <p>Employee name: {people.employee_first_name} {people.employee_surname}</p>
-            <p><b>{people.employee_job_title}</b></p>
-            <p>{comment}</p>
-            <p>{star_rating}</p>
+            <p>employee job:<b>{people.employee_job_title}</b></p>
+            <p>Comment: {people.comment}</p>
+            <p>Rating out of five:{people.star_rating}</p>
           </div>
         )
       })}
