@@ -15,7 +15,7 @@ export default function App() {
 
 
   async function fetchStaff() {
-    const result = await fetch('http://localhost:8080/staff')
+    const result = await fetch('https://employee2-rxwp.onrender.com')
     const staff = await result.json()
     setStaff(staff)
     console.log(staff)
